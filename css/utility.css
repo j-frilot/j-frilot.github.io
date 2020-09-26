@@ -1,0 +1,32 @@
+h1, h2, h3, h3, h4, h5, h6{
+    text-align: center;
+}
+
+h2{
+    font-size: 2.75rem;
+}
+
+h3{
+    font-size:2.25rem;
+}
+
+.btn{
+    padding:15px 20px;
+    background: blue;
+    border-radius: 5px;
+    color: #ffffff;
+    margin:5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width:70%;
+}
+
+.container{
+    width:70%;
+    margin:auto;
+}
