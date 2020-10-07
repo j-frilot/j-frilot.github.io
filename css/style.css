@@ -1,97 +1,188 @@
-body{
-    margin:0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-size: 16px;
-    color:#ffffff;
-    background: #000000;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.top-page{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    position: relative;
+body {
+  background-color: #ccc;
+  color: #aaa;
+  font-family: monospace, sans-serif;
 }
 
-.video{
-    background-position: center;
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+.top-bar {
+  background-color: #000;
+  padding: 1rem;
+  margin: 0.5rem 0.5rem 0rem 0.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
-h1{
-    font-size:3.5rem;
+.bottom-bar {
+  background-color: #000;
+  padding: 1rem;
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
-.intro{
-    z-index: 1;
+.bucket {
+  background-color: #000;
+  margin: 0 0.5rem;
 }
 
-
-.headshot{
-    width:250px;
-    border-radius: 100%;
-    margin-bottom: 20px;
+.hr {
+  width: 70%;
+  margin: 1rem auto;
 }
 
-/* =-=-=--=-=-=-PROJECTS-=-=-=-=-=-=-=- */
+/* ===========NAV MENU======================== */
 
-.projects-container{
-    width:80%;
-    margin: auto;
+.fa-bars {
+  color: #ccc;
+  font-size: 2.5rem;
+  margin: 1rem;
 }
 
-/* .work-pic{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
-.work-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-    justify-items: center;
-    align-content: center;
-
-
+.fa-bars:hover,
+.fa-window-close:hover {
+  cursor: pointer;
 }
 
-/* -=-=--=-=-=--=-=-CONTACT=-=-=--=-=--=-=- */
-
-.wrapper {
-    background: #333333;
-    padding: 15px 25px;
-    width: 50%;
-    border-radius: 5px;
+.nav-menu {
+  width: 150px;
+  border: 1px solid #000;
+  margin-left: 0.5rem;
 }
-.wrapper .form-group {
-width: 80%;
-padding: 10px;
-margin:5px;
-border-radius: 5px;
+.nav-menu li {
+  padding: 0.5rem;
+  border: 1px solid #000;
+  text-align: center;
+  list-style: none;
 }
 
-.wrapper .btn {
-display: block;
-margin: auto;
-margin-top: 20px;
+/* -----------end nav menu------------ */
+
+.main-content,
+.contact {
+  background-color: #333;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  position: relative;
 }
 
-/* -=-=-=-=-=-=-=-=-=-= */
+/* ==========web links========= */
+.web-links {
+  display: flex;
+  justify-content: center;
+}
 
+.fa-github,
+.fa-file-word,
+.fa-linkedin-in,
+.fa-at {
+  font-size: 35px;
+  background-color: #111;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
 
+/* -------------INTRO------------- */
+.intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-h4{
-    padding:0px;
+  /* width: 80%; */
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin: 1rem;
+  font-size: 2.5rem;
+  width: 80%;
+  text-align: center;
+}
+
+.work-link {
+  background-color: #111;
+  /* position: absolute;
+  right: 15%;
+  bottom: 30%; */
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* ===========END PAGE 1=============== */
+/* ============WORK PAGE================ */
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pic {
+  margin: 1rem;
+}
+
+.pic:hover {
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* =================END WORK PAGE============== */
+/* ======contact box======= */
+.contact {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ccc;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.form-group {
+  margin: 2rem;
+}
+
+input,
+textarea {
+  width: 200px;
+  align-content: flex-end;
+  padding: 0.5rem;
+  border: 1px #fff solid;
+  color: #fff;
+}
+
+button {
+  background-color: #111;
+  color: #ccc;
+  margin-left: 2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

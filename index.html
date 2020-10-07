@@ -1,142 +1,195 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-		<meta name="port" content="width=device-width, initial-scale=1.0"/>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- icon cdn  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
 
-		<!-- Font Awesome Icon CDN -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-		<!-- global utility classes style sheet -->
-		<link rel="stylesheet" href="/css/utility.css">
 
-		<!-- css style sheet -->
-      	<link rel="stylesheet" href="/css/style.css"> 
-		  
-      	<title>Joshua Frilot</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-	</head>
-	
-    <body class="black">
-		<div class="video">
-			<video src="/images/background-vid.mp4" loop autoplay></video>
-		</div>
-		<section class="top-page">
-					
-			<div class="title">
-				<h1>Joshua Frilot</h1>
-			</div>
-			<div class="headshot">
-				<img src="/images/headshot-1.jpg" alt="headshot of joshua" class=" headshot">
-			</div>
-			
-			<div class="center">
-				<a href="#projects" class="btn">My Work</a>
-				<a href="#about" class="btn  indigo darken-2">About Me</a>
-				<a href="#form" class="btn  indigo darken-2">Contact</a>
-			</div>
-			
-					
-		</section>
-		<hr>
 
-		<!-- -=-=-=-=-=--=PROJECTS-=-=-=-=-=-=- -->
+    <!-- css style sheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>New Portfolio</title>
+  </head>
+    <body>
+        <!-- intro page -->
 
-		<section class="projects container" id="projects">
-			<h2 class="heading center-align">Some Of My Work</h2>
-			<div class="work-grid">
-				<div class="sample sample-1">
-					<img src="https://via.placeholder.com/250" alt=""  work-pic">
-					<div class="description">
-						<h4>Lorem, ipsum dolor.</h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste.</p>
-					</div>
-				</div>
-				<div class="sample sample-2 ">
-					<img src="https://via.placeholder.com/250" alt=""  work-pic">
-					<div class="description">
-						<h4>Lorem, ipsum dolor.</h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste.</p>
-					</div>
-				</div>
-				<div class="sample sample-3 ">
-					<img src="https://via.placeholder.com/250" alt=""  work-pic">
-					<div class="description">
-						<h4>Lorem, ipsum dolor.</h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste.</p>
-					</div>
-				</div>
-				<div class="sample sample-4 ">
-					<img src="https://via.placeholder.com/250" alt=""  work-pic">
-					<div class="description">
-						<h4>Lorem, ipsum dolor.</h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste.</p>
-					</div>
-				</div>
-				<div class="sample sample-5">
-					<img src="https://via.placeholder.com/250" alt=""  work-pic">
-					<div class="description">
-						<h4>Lorem, ipsum dolor.</h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste.</p>
-					</div>
-				</div>
-				<div class="sample sample-6 ">
-					<img src="https://via.placeholder.com/250" alt=""  work-pic">
-					<div class="description">
-						<h4>Lorem, ipsum dolor.</h4>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<hr>
+        <div class="top-bar"></div>
+        <div class="bucket">
+            <section id="top">
+                        <!-- nav menu -->
+                <div class="nav-icon">
+                    <a class='dropdown-trigger btn-drop' href='#' data-target='dropdown1'><i class="fas fa-bars" id="open"></i></a>
+                    
+                </div>
+                <div class="nav-menu dropdown-content  " id="dropdown1">
+                    <ul>
+                        <li><i class="fas fa-window-close" id="close"></i></li>
+                        <li><a href="#top" id="top-link">Top</a></li>
+                        <li><a href="#my-work" id="work-link">My Work</a></li>
+                        <li><a href="#contact" id="contact-link">Contact Me</a></li>
+                    </ul>
+                </div>
+                <!--  -->
 
-			<!-- -=-=-==--=-=CONTACT-=-=-=-=-=-=- -->
-			
-		<section class="contact container" id="contact">
-			<h3>Need To Contact Me?</h3>
-			<div class="wrapper">
-				
-				<form class="form" action="https://formspree.io/mwkwkobn" method="POST">
-				  	<div class="form-group">
-						<label for="first-name">First Name
-							<input type="text" name="firstName" id="first-name" />
-						</label><br>
-					  </div>
-					  
-				  	<div class="form-group">
-						<label for="last-name">Last Name
-							<input type="text" name="lastName" id="last-name" />
-						</label><br>
-					</div>
+                <div class="row icons">
+                    <div class="col s8 offset-s2">
+                        <ul class="web-links">
+                            <li><a href="#" class="link"><i class="fab icon fa-github"></i></a></li>
+                            <li><a href="#" class="link"><i class="far icon fa-file-word"></i></a></li>
+                            <li><a href="#" class="link"><i class="fab icon fa-linkedin-in"></i></a></li>
+                            <li><a href="#" class="link"><i class="fas icon fa-at"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="intro">
+                    <h1>Hey, I'm Joshua Frilot</h1>
+                    <h2 class="show-on-small">Lets Work Together!</h2>
+                    <h2 class="hide-on-small-only">I'm a web developer who's looking forward to working with you!</h2>
+                </div><hr class="hr">
+            </section>   
 
-					<div class="form-group">
-						<label for="email">Email Me
-							<input type="email" name="email" id="email" />
-						</label><br>
-					</div>
+            <!-- -------WORK PAGE -------->
+            <section id="my-work">
+                <h3 class="center-align">Check out my work.</h3>
+                <div class="gallery">
+                    <div class="pic-frame">
+                        <div class="groupme"><a href="#modal1" class="modal-trigger tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><img src="https://via.placeholder.com/300x200" alt="" class="pic pic4 " /></a></div>
+                    </div>
+                    <div class="pic-frame">
+                        <div class="groupme"><a href="#modal2" class="modal-trigger tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><img src="https://via.placeholder.com/300x200" alt="" class="pic pic4 " /></a></div>
+                    </div><div class="pic-frame">
+                        <div class="groupme"><a href="#modal3" class="modal-trigger tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><img src="https://via.placeholder.com/300x200" alt="" class="pic pic4 " /></a></div>
+                    </div><div class="pic-frame">
+                        <div class="groupme"><a href="#modal4" class="modal-trigger tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><img src="https://via.placeholder.com/300x200" alt="" class="pic pic4 " /></a></div>
+                    </div>
 
-					<div class="form-group">
-						<label for="story">Leave a message!
-							<textarea id="message name="message" rows="5" cols="40"></textarea>
-						</label>
-					</div>
-					
-					
-					<button type="submit" class="btn">Send!</button>
+                    
+                </div><hr class="hr">
+            </section>
 
-				</form>
+            <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text1</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 
-				<div class="contact-info">
-					<ul class="info-list">My Info</ul>
-					<li>Phone: (555)555-5555</li>
-					<li>Email: frilotdr@gmail.com</li>
-					<li>Follow Me:<a href="www.linkedin.com"></li>
-					<button class="btn">Resume</button>
-				</div>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text2</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 
-			</div>
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text3</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 
-		</section>
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text4</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 
+
+
+            <!-- contact page -->
+            <section id="contact">
+                <div class="row">
+
+                    <div class="col l8">
+                        <form class="form center-align" action="https://formspree.io/mwkwkobn" method="POST">
+                            <h4>Send Me Feedback</h4>
+                            <div class="form-group">
+                                <label for="first-name">
+                                    <input type="text" name="firstName" id="first-name" placeholder="First Name"/>
+                                </label><br>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="last-name">
+                                    <input type="text" name="lastName" id="last-name" placeholder="Last Name" />
+                                </label><br>
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="email">
+                                    <input type="email" name="email" id="email" placeholder="Email Address" />
+                                </label><br>
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="story">
+                                    <textarea id="message name="message" placeholder="Leave A Message!"></textarea>
+                                </label>
+                            </div>
+                        
+                            <button type="submit">Send!</button>
+                        </form>
+                    </div>
+
+                    <div class="col l4">
+                        <div class="contact-info center-align ">
+                            <h4 >My Info</h4>
+                            <ul class="info-list">
+                                <li>Phone: (555)555-5555</li>
+                                <li>Email: frilotdr@gmail.com</li>
+                                <li>Follow Me:<a href="www.linkedin.com"></li>
+                            </ul>
+                            <a href="#link">Resume</a>
+                        </div>       
+                    </div>
+                </div>
+                                        
+            </section>
+            <div class="bottom-bar"></div>
+
+
+        </div>
+            
+
+
+
+            
+            
+            
+
+
+        <!--jquery--  -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <!-- Compiled and minified JavaScript materialize -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!--JavaScript filesg-->
+        <script type="text/javascript" src="js/modal.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+
+        
     </body>
-  </html>
+</html>
