@@ -10,6 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
   M.Tabs.init(workTab, {});
 });
 
+// /////////  TOOL TIP  ///////////
+
+document.addEventListener("DOMContentLoaded", function () {
+  var tool = document.querySelectorAll(".tooltipped");
+  var instances = M.Tooltip.init(tool, {});
+});
+
 ///////MODALS////////
 // document.addEventListener("DOMContentLoaded", function () {
 //   var picOne = document.querySelectorAll(".modal");
