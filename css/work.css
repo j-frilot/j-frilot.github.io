@@ -1,0 +1,51 @@
+h3 {
+  font-size: 2rem;
+}
+
+.tab-row li {
+  background-color: #333;
+  color: #ccc;
+}
+
+.tab-row li a {
+  color: #ccc;
+}
+
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  /* background-image: url("/images/intergreen-desktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 300px; */
+}
+
+.misc-one {
+  background-image: url("/images/groupme-ipad.png");
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 300px;
+}
+
+.landing-one {
+  background-image: url("/images/intergreen-desktop.png");
+  background-size: cover;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* width: 250px;
+  height: 300px; */
+}
+
+.landing-two {
+  background-image: url("/images/pinterest-deaktop.png");
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 300px;
+}

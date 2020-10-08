@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- icon cdn  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+    <!-- google material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
@@ -14,6 +17,7 @@
 
 
     <!-- css style sheet -->
+    <link rel="stylesheet" href="/css/work.css">
     <link rel="stylesheet" href="/css/style.css" />
     <title>New Portfolio</title>
   </head>
@@ -22,13 +26,13 @@
 
         <div class="top-bar"></div>
         <div class="bucket">
-            <section id="top">
+            <section id="top" class="container">
                         <!-- nav menu -->
                 <div class="nav-icon">
                     <a class='dropdown-trigger btn-drop' href='#' data-target='dropdown1'><i class="fas fa-bars" id="open"></i></a>
                     
                 </div>
-                <div class="nav-menu dropdown-content  " id="dropdown1">
+                <div class="nav-menu dropdown-content" id="dropdown1">
                     <ul>
                         <li><i class="fas fa-window-close" id="close"></i></li>
                         <li><a href="#top" id="top-link">Top</a></li>
@@ -41,48 +45,192 @@
                 <div class="row icons">
                     <div class="col s8 offset-s2">
                         <ul class="web-links">
-                            <li><a href="#" class="link"><i class="fab icon fa-github"></i></a></li>
+                            <li><a href="https://github.com/j-frilot" class="link"><i class="fab icon fa-github"></i></a></li>
                             <li><a href="#" class="link"><i class="far icon fa-file-word"></i></a></li>
-                            <li><a href="#" class="link"><i class="fab icon fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/joshuafrilot/" class="link"><i class="fab icon fa-linkedin-in"></i></a></li>
                             <li><a href="#" class="link"><i class="fas icon fa-at"></i></a></li>
                         </ul>
                     </div>
                 </div>
-        
-                <div class="intro">
+                <div class="intro center-align">
                     <h1>Hey, I'm Joshua Frilot</h1>
-                    <h2 class="show-on-small">Lets Work Together!</h2>
-                    <h2 class="hide-on-small-only">I'm a web developer who's looking forward to working with you!</h2>
+                    <h2 class="show-on-small ">Lets Work Together!</h2>
+                    <!-- <h2 class="hide-on-small-only">I'm a web developer who's looking forward to working with you!</h2> -->
+                    <p>I focus on creating <span class="stand">clean</span> and <span class="stand">visually  appealing</span> work. I have worked with languages such as <span class="stand">javascript, html, and css</span> as well as css frameworks.Please, <a href="#contact-1" class="stand">contact me</a>  if you would like to talk more.</p>
                 </div><hr class="hr">
             </section>   
 
-            <!-- -------WORK PAGE -------->
-            <section id="my-work">
-                <h3 class="center-align">Check out my work.</h3>
-                <div class="gallery">
-                    <div class="pic-frame">
-                        <div class="groupme"><a href="#modal1" class="modal-trigger tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><img src="https://via.placeholder.com/300x200" alt="" class="pic pic4 " /></a></div>
-                    </div>
-                    <div class="pic-frame">
-                        <div class="groupme"><a href="#modal2" class="modal-trigger tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><img src="https://via.placeholder.com/300x200" alt="" class="pic pic4 " /></a></div>
-                    </div><div class="pic-frame">
-                        <div class="groupme"><a href="#modal3" class="modal-trigger tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><img src="https://via.placeholder.com/300x200" alt="" class="pic pic4 " /></a></div>
-                    </div><div class="pic-frame">
-                        <div class="groupme"><a href="#modal4" class="modal-trigger tooltipped" data-position="bottom" data-tooltip="I am a tooltip"><img src="https://via.placeholder.com/300x200" alt="" class="pic pic4 " /></a></div>
+            <!--------- Skills----- -->
+            <section id="skills" class= "container">
+                <h3>Some of my skills</h3>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <h4>Responsive Design</h4>
+                        <i class="material-icons">app_settings_alt</i>
+
                     </div>
 
-                    
-                </div><hr class="hr">
+                    <div class="col s12 m4">
+                        <h4>Efficiency</h4>
+                        <i class="material-icons">update</i>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <h4>Adaptive</h4>
+                        <i class="material-icons">add_task</i>
+                    </div>
+
+                </div>
+                <h5>I have experience using:</h5>
+                <div class="row">
+                    <div class="col l2 offset-l1">
+                        <img src="/images/html5.png" alt="html5 logo">
+                    </div>
+                    <div class="col l2">
+                        <img src="/images/bootstrap.png" alt="bootstrap logo">
+                    </div>
+                    <div class="col l2">
+                        <img src="/images/materialize.png" alt="materialize logo" width="150px">
+                    </div>
+                    <div class="col l2">
+                        <img src="/images/javascript.png" alt="javascript logo">
+                    </div>
+                    <div class="col l2">
+                        <img src="/images/github.png" alt="github logo" width="150px">
+                    </div>
+                </div>
+                <hr class="hr">
             </section>
 
-            <!-- Modal Structure -->
+
+            <!-- -------WORK PAGE -------->
+            <section id="my-work" class="container">
+                <h3 class="center-align">Check out my work.</h3>
+                <div class="row">
+                    <div class="col s8 offset-s2">
+                      <ul class="tabs tab-row ">
+                        <li class="tab col s4"><a href="#one"><span class="white-text">Page Projects</span> </a></li>
+                        <li class="tab col s4 "><a href="#two"><span class="white-text">Javascript Apps</span></a></li>
+                        <li class="tab col s4"><a href="#three"><span class="white-text">Landing Pages</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+            
+
+                  <!-- misc -->
+                  <div id="one" class="row tab misc">
+                    <div class="col s12  l4">
+                        <div class="card small misc-one ">
+                            <card-image>
+                                <img src="" alt="">
+                                <span class="card-title">title</span>
+                            </card-image>
+                            <div class="card-content"></div>
+                            <div class="card-action">
+                                <a href="#">link</a>
+                                <a href="#">link</a>
+                            </div>
+                          </div>
+
+                          
+
+                          
+                    </div>
+                    <div class="col 12 l4">
+                        <div class="card small landing-two">
+                            <card-image>
+                                <img src="" alt="">
+                                <span class="card-title">title</span>
+                            </card-image>
+                            <div class="card-content"></div>
+                            <div class="card-action">
+                                <a href="#">link</a>
+                                <a href="#">link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card small landing-one">
+                            <card-image>
+                                <img src="" alt="">
+                                <span class="card-title">title</span>
+                            </card-image>
+                            <div class="card-content"></div>
+                            <div class="card-action">
+                                <a href="#">link</a>
+                                <a href="#">link</a>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+            
+
+                  <!-- javascript -->
+                  <div id="two" class="row tab javascript">
+                    <div class="col s12 l4">
+                        <div class="card small java-one">
+                            <card-image>
+                                <img src="" alt="">
+                                <span class="card-title">title</span>
+                            </card-image>
+                            <div class="card-content"></div>
+                            <div class="card-action">
+                                <a href="#">link</a>
+                                <a href="#">link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col s12 l4">
+                        
+                    </div>
+                    <div class="col s12 l4">
+                        
+                    </div>
+                  </div>
+            
+                  <!-- landing pages -->
+                  <div id="three" class="row tab landing">
+                    <div class="col s12 l4">
+                      <div class="card small landing-one">
+                        <card-image>
+                            <img src="" alt="">
+                            <span class="card-title">title</span>
+                        </card-image>
+                        <div class="card-content"></div>
+                        <div class="card-action">
+                            <a href="#">link</a>
+                            <a href="#">link</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card small landing-two">
+                            <card-image>
+                                <img src="" alt="">
+                                <span class="card-title">title</span>
+                            </card-image>
+                            <div class="card-content"></div>
+                            <div class="card-action">
+                                <a href="#">link</a>
+                                <a href="#">link</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col s12 l4">
+                        
+                    </div>
+                </div>
+                  <hr class="hr">
+            </section>
+
+            <!-- Modal Structure
   <div id="modal1" class="modal">
     <div class="modal-content">
       <h4>Modal Header</h4>
       <p>A bunch of text1</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="/groupMe/dist/groupme.html" target="_blank" class="modal-close waves-effect waves-green btn-flat">Agree</a>
     </div>
   </div>
 
@@ -92,7 +240,7 @@
       <p>A bunch of text2</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="/pinterest-project/dist/index.html" target="_blank" class="modal-close waves-effect waves-green btn-flat">Agree</a>
     </div>
   </div>
 
@@ -114,13 +262,13 @@
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
     </div>
-  </div>
+  </div> -->
 
 
 
             <!-- contact page -->
-            <section id="contact">
-                <div class="row">
+            <section id="contact" class="container">
+                <div class="row" id="contact-1">
 
                     <div class="col l8">
                         <form class="form center-align" action="https://formspree.io/mwkwkobn" method="POST">
@@ -157,11 +305,11 @@
                         <div class="contact-info center-align ">
                             <h4 >My Info</h4>
                             <ul class="info-list">
-                                <li>Phone: (555)555-5555</li>
-                                <li>Email: frilotdr@gmail.com</li>
-                                <li>Follow Me:<a href="www.linkedin.com"></li>
+                                <li>Phone: (504) 944-9712</li>
+                                <li>Email: <a href="mailto:frilotdr@gmail.com">frilotdr@gmail.com</a></li>
+                                <li>Follow Me: <a href="https://www.linkedin.com/in/joshuafrilot/">LinkedIn</li>
                             </ul>
-                            <a href="#link">Resume</a>
+                            <a href="#link">My Resume</a>
                         </div>       
                     </div>
                 </div>
@@ -176,18 +324,19 @@
 
 
             
+        
+
+
             
             
 
 
-        <!--jquery--  -->
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
         <!-- Compiled and minified JavaScript materialize -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-        <!--JavaScript filesg-->
-        <script type="text/javascript" src="js/modal.js"></script>
+        <!--JavaScript files-->
+        <script type="text/javascript" src="js/utilities.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
 
         
