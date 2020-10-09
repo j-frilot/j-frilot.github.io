@@ -15,33 +15,3 @@ h3 {
   display: flex;
   flex-wrap: wrap;
 }
-
-.misc-one {
-  background-image: url("/images/groupme-ipad.png");
-  background-size: cover;
-  background-position: center;
-  width: 250px;
-  height: 300px;
-}
-
-.card-btn {
-  margin: 0;
-  padding: 0;
-}
-
-.landing-one {
-  background-image: url("/images/intergreen-desktop.png");
-  background-size: cover;
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  width: 300px;
-  height: 300px;
-}
-
-.landing-two {
-  background-image: url("/images/pinterest-deaktop.png");
-  background-size: cover;
-  background-position: center;
-  width: 300px;
-  height: 300px;
-}
