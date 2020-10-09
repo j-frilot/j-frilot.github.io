@@ -1,54 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #ccc;
-  color: #aaa;
-  font-family: monospace, sans-serif;
-}
-
-.bucket {
-  background-color: #000;
-  margin: 1rem 1rem;
-}
-
-.hr {
-  width: 70%;
-  border: #ccc dashed 1px;
-  margin: 1rem auto;
-}
-
 .fa-bars,
 .fa-github,
 .fa-file-word,
 .fa-linkedin-in,
-.fa-at {
-  font-size: 2.5rem;
-  background-color: #111;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  margin: 1rem;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  color: inherit;
-  text-decoration: underline;
-}
-
-/* ===========NAV MENU======================== */
-
+.fa-at,
 .nav-menu {
-  width: 13px;
-  border: 1px solid #333;
-  margin-left: 0.5rem;
+  /* background-color: var(--sec-bg-color); */
+  color: var(--main-txt-color);
+  font-size: 2.5rem;
+  margin: 1rem;
+  /* border: var(--border); */
 }
+
 .nav-menu li {
   padding: 0.5rem;
   border: 1px solid #000;
@@ -56,24 +18,9 @@ a {
   list-style: none;
 }
 
-/* -----------end nav menu------------ */
-
-/* ==========web links========= */
-
 .web-links {
   display: flex;
   justify-content: center;
-}
-
-/* -------------INTRO------------- */
-h1 {
-  font-size: 3.5rem;
-}
-
-h2 {
-  margin: 1rem;
-  font-size: 2.5rem;
-  width: 80%;
 }
 
 .intro {
@@ -84,19 +31,12 @@ h2 {
 }
 
 .stand {
-  color: #fff;
+  color: var(--lead-txt-color);
   font-weight: bold;
-}
-/* =============SKILLS================== */
-h3,
-h4,
-h5 {
-  text-align: center;
-  color: #fff;
 }
 
 .material-icons {
-  font-size: 100px;
+  font-size: 6.5rem;
   display: flex;
   justify-content: center;
 }
@@ -105,45 +45,44 @@ h5 {
   display: flex;
 }
 /* ============WORK PAGE================ */
+/* =////////NEEEDDDSS WORK */
 
 /* ======contact box======= */
-h4 {
-  font-size: 1.5rem;
+
+.card-panel {
+  background-color: var(--sec-bg-color);
 }
 
 .contact {
-  position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
-  line-height: 1.5;
-}
-
-.form-group {
-  margin: 2rem;
 }
 
 input,
 textarea {
-  width: 200px;
-  align-content: flex-end;
+  color: var(--lead-txt-color);
+  font-size: 1rem;
+  height: 75px;
   padding: 0.5rem;
-  border: 1px #fff solid;
-  color: #fff;
+  border: var(--border);
 }
 
 button {
-  background-color: #111;
-  color: #ccc;
+  background-color: var(--sec-bg-color);
+  color: var(--lead-txt-color);
   margin: 0 2rem 2rem 2rem;
   padding: 0.5rem 2rem;
+  border: var(--border);
 }
 
 button:hover {
   cursor: pointer;
 }
 
+.info-panel {
+}
+
 .info-list li {
-  margin: 1rem;
+  margin: 0;
 }

@@ -17,6 +17,7 @@
 
 
     <!-- css style sheet -->
+    <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/work.css">
     <link rel="stylesheet" href="/css/style.css" />
     <title> Joshua Frilot </title>
@@ -57,10 +58,12 @@
                 </div>
                 <div class="intro center-align">
                     <h1>Hey, I'm Joshua Frilot</h1>
+
                     <h2 class="show-on-small ">Lets Work Together!</h2>
-                    <!-- <h2 class="hide-on-small-only">I'm a web developer who's looking forward to working with you!</h2> -->
+
                     <p>I focus on creating <span class="stand">clean</span> and <span class="stand">visually  appealing</span> work. I have worked with languages such as <span class="stand">javascript, html, and css</span> as well as css frameworks.Please, <a href="#contact-1" class="stand">contact me</a>  if you would like to talk more.</p>
-                </div><hr class="hr">
+                </div>
+                <hr class="hr">
             </section>   
 
             <!--------- Skills----- -->
@@ -87,22 +90,22 @@
                 <h5>I have experience using:</h5>
                 <div class="row">
                     <div class="col s6 m4 l2">
-                        <img src="/images/html5.png" alt="html5 logo">
+                        <img src="/images/html5.png" alt="html5 logo" class="tooltipped" data-position="bottom" data-tooltip="HTML5">
                     </div>
                     <div class="col s6 m4 l2">
-                        <img src="/images/bootstrap.png" alt="bootstrap logo">
+                        <img src="/images/bootstrap.png" alt="bootstrap logo" class="tooltipped" data-position="bottom" data-tooltip="Bootstrap">
                     </div>
                     <div class="col s6 m4 l2">
-                        <img src="/images/materialize.png" alt="materialize logo" width="150px">
+                        <img src="/images/materialize.png" alt="materialize logo" width="150px" class="tooltipped" data-position="bottom" data-tooltip="Materialize">
                     </div>
                     <div class="col s6 m4 l2">
-                        <img src="/images/css3.png" alt="css logo">
+                        <img src="/images/css3.png" alt="css logo" class="tooltipped" data-position="bottom" data-tooltip="CSS3">
                     </div>
                     <div class="col s6 m4 l2">
-                        <img src="/images/javascript.png" alt="javascript logo">
+                        <img src="/images/javascript.png" alt="javascript logo" class="tooltipped" data-position="bottom" data-tooltip="Javascript">
                     </div>
                     <div class="col s6 m4 l2">
-                        <img src="/images/github.png" alt="github logo" width="150px">
+                        <img src="/images/github.png" alt="github logo" width="150px" class="tooltipped" data-position="bottom" data-tooltip="Github">
                     </div>
                 </div>
                 <hr class="hr">
@@ -113,7 +116,7 @@
             <section id="my-work" class="container">
                 <h3 class="center-align">Check out my work.</h3>
                 <div class="row">
-                    <div class="col s8 offset-s2">
+                    <div class="col s12">
                       <ul class="tabs tab-row ">
                         <li class="tab col s4"><a href="#one"><span class="white-text">Page Projects</span> </a></li>
                         <li class="tab col s4 "><a href="#two"><span class="white-text">Javascript Apps</span></a></li>
@@ -241,51 +244,69 @@
                 <div class="row" id="contact-1">
 
                     <div class="col l8">
-                        <form class="form center-align" action="https://formspree.io/mwkwkobn" method="POST">
-                            <h4>Send Me Feedback</h4>
-                            <div class="form-group">
-                                <label for="first-name">
-                                    <input type="text" name="firstName" id="first-name" placeholder="First Name"/>
-                                </label><br>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="last-name">
-                                    <input type="text" name="lastName" id="last-name" placeholder="Last Name" />
-                                </label><br>
-                            </div>
-        
-                            <div class="form-group">
-                                <label for="email">
-                                    <input type="email" name="email" id="email" placeholder="Email Address" />
-                                </label><br>
-                            </div>
-        
-                            <div class="form-group">
-                                <label for="story">
-                                    <textarea id="message name="message" placeholder="Leave A Message!"></textarea>
-                                </label>
-                            </div>
                         
-                            <button type="submit">Send!</button>
-                        </form>
                     </div>
 
-                    <div class="col l4">
-                        <div class="contact-info center-align ">
-                            <h4 >My Info</h4>
-                            <ul class="info-list">
-                                <li>Phone: (504) 944-9712</li>
-                                <li>Email: <a href="mailto:frilotdr@gmail.com">frilotdr@gmail.com</a></li>
-                                <li>Follow Me: <a href="https://www.linkedin.com/in/joshuafrilot/" target="_blank">LinkedIn</li>
-                            </ul>
-                            <a href="https://drive.google.com/file/d/1TQ6qhFEiINZ5DHC4CutShq9PIvkcAmlI/view?usp=sharing" target="_blank">My Resume</a>
-                        </div>       
+                    <div class="col l3 offset-l1">
+                             
                     </div>
                 </div>
                                         
             </section>
+            
+                <section class="container">
+                    <div class="row">
+                        <div class="col s12 l8">
+                          <div class="card-panel">
+                            <form class="form center-align" action="https://formspree.io/mwkwkobn" method="POST">
+                                <h4>Send Me Feedback</h4>
+                                <div class="form-group">
+                                    <label for="first-name">
+                                        <input type="text" name="firstName" id="first-name" placeholder="First Name"/>
+                                    </label><br>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="last-name">
+                                        <input type="text" name="lastName" id="last-name" placeholder="Last Name" />
+                                    </label><br>
+                                </div>
+            
+                                <div class="form-group">
+                                    <label for="email">
+                                        <input type="email" name="email" id="email" placeholder="Email Address" />
+                                    </label><br>
+                                </div>
+            
+                                <div class="form-group">
+                                    <label for="story">
+                                        <textarea id="message name="message" placeholder="Leave A Message!"></textarea>
+                                    </label>
+                                </div>
+                            
+                                <button type="submit">Send!</button>
+                            </form>
+                          </div>
+                        </div>
+        
+                        <div class="col s12 l4">
+                          <div class="card-panel info-panel">
+                            <div class="contact-info center-align ">
+                                <h4 >My Info</h4>
+                                <ul class="info-list">
+                                    <li>Phone: (504) 944-9712</li>
+                                    <li>Email: <a href="mailto:frilotdr@gmail.com">frilotdr@gmail.com</a></li>
+                                    <li>Follow Me: <a href="https://www.linkedin.com/in/joshuafrilot/" target="_blank">LinkedIn</li>
+                                </ul>
+                                <a href="https://drive.google.com/file/d/1TQ6qhFEiINZ5DHC4CutShq9PIvkcAmlI/view?usp=sharing" target="_blank">My Resume</a>
+                            </div>  
+                          </div>
+                        </div>
+                    <div>
+                </section>
+            
             <div class="bottom-bar"></div>
+
 
 
         </div>
