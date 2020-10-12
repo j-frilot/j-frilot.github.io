@@ -41,13 +41,31 @@
   justify-content: center;
 }
 
-.skills-list {
-  display: flex;
-}
-/* ============WORK PAGE================ */
-/* =////////NEEEDDDSS WORK */
+/* ===================================================== */
+/* ---------------------Work Section --------------------*/
+/* ===================================================== */
 
-/* ======contact box======= */
+h3 {
+  font-size: 2rem;
+}
+
+.gallary {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallary-item {
+  width: auto;
+  max-height: 200px;
+  margin: 1rem;
+}
+
+/* ===================================================== */
+/* ---------------------Contact----- --------------------*/
+/* ===================================================== */
 
 .card-panel {
   background-color: var(--sec-bg-color);

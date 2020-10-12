@@ -4,12 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var instances = M.Dropdown.init(drop, {});
 });
 
-// ////////  WORK TABS  //////
-document.addEventListener("DOMContentLoaded", function () {
-  var workTab = document.querySelector(".tabs");
-  M.Tabs.init(workTab, {});
-});
-
 // /////////  TOOL TIP  ///////////
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -17,44 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
   var instances = M.Tooltip.init(tool, {});
 });
 
-///////MODALS////////
-// document.addEventListener("DOMContentLoaded", function () {
-//   var picOne = document.querySelectorAll(".modal");
-//   M.Modal.init(picOne, {});
-// });
+///////////// WORK GALLARY BLOW UPS///////////////////
+document.addEventListener('DOMContentLoaded', function() {
+  var image = document.querySelectorAll('.materialboxed');
+  var instances = M.Materialbox.init(image, {});
+});
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   var picTwo = document.querySelectorAll(".modal");
-//   M.Modal.init(picTwo, {});
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   var picThree = document.querySelectorAll(".modal");
-//   M.Modal.init(picThree, {});
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   var picFour = document.querySelectorAll(".modal");
-//   M.Modal.init(picFour, {});
-// });
-
-// // ///////TOOLTIPS////////
-// document.addEventListener("DOMContentLoaded", function () {
-//   var toolOne = document.querySelectorAll(".tooltipped");
-//   var instances = M.Tooltip.init(toolOne, {});
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   var toolTwo = document.querySelectorAll(".tooltipped");
-//   var instances = M.Tooltip.init(toolTwo, {});
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   var toolThree = document.querySelectorAll(".tooltipped");
-//   var instances = M.Tooltip.init(toolThree, {});
-// });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   var toolFour = document.querySelectorAll(".tooltipped");
-//   var instances = M.Tooltip.init(toolFour, {});
-// });
