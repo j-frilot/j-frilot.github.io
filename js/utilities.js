@@ -1,8 +1,8 @@
 ///////////// dropdown MENU///////
-document.addEventListener("DOMContentLoaded", function () {
-  var drop = document.querySelectorAll(".dropdown-trigger");
-  var instances = M.Dropdown.init(drop, {});
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   var drop = document.querySelectorAll(".dropdown-trigger");
+//   var instances = M.Dropdown.init(drop, {});
+// });
 
 // /////////  TOOL TIP  ///////////
 

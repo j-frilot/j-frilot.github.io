@@ -17,8 +17,8 @@
 
 
     <!-- css style sheet -->
-    <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title> Joshua Frilot </title>
   </head>
     <body>
@@ -26,22 +26,24 @@
 
         <div class="top-bar"></div>
         <div class="bucket">
-            <section id="top" class="container">
-                        <!-- nav menu -->
-                <div class="nav-icon">
-                    <a class='dropdown-trigger btn-drop' href='#' data-target='dropdown1'><i class="fas fa-bars" id="open"></i></a>
-                    
-                </div>
-                <div class="nav-menu dropdown-content" id="dropdown1">
-                    <ul>
-                        <li><i class="fas fa-window-close" id="close"></i></li>
-                        <li><a href="#top" id="top-link">Top</a></li>
-                        <li><a href="#my-work" id="work-link">My Work</a></li>
-                        <li><a href="#contact" id="contact-link">Contact Me</a></li>
-                    </ul>
-                </div>
-                <!--  -->
+            <section class="navigation container">
+               
+                <nav class="">
+                    <div class="nav-wrapper black">
+                
+                      
+                      <ul >
+                        <li><i class="material-icons nav-links">code</i></li>
+                        <li><a href="#skills" class="nav-links">My Skills</a></li>
+                        <li><a href="#work" class="nav-links">My Work</a></li>
+                        <li><a href="#contact" class="nav-links">Contact Me</a></li>
+                        <i class="material-icons nav-links">code</i>
+                      </ul>
+                    </div>
+                  </nav>
+            </section>
 
+            <section id="top" class="container">
                 <div class="row icons">
                     <div class="col s8 offset-s2">
                         <ul class="web-links">
@@ -68,7 +70,7 @@
             <!--------- Skills----- -->
             <section id="skills" class= "container">
                 <h3>Some of my skills</h3>
-                <div class="row">
+                <div id="my skills" class="row">
                   <div class="col s6 m3 skill">
                       <h4>Responsive</h4>
                       <i class="material-icons">app_settings_alt</i>
@@ -117,9 +119,9 @@
             </section>
 
             <!-- -------WORK PAGE -------->
-            <section id="my-work">
+            <section id="work">
               <h3 class="center-align">Check out my work.</h3>
-              <div class="gallary">
+              <div id="my-work" class="gallary">
                 <div>
                   <img src="images/groupme-ipad.png" alt="group-me app" class="responsive-img materialboxed gallary-item" width="1000" data-caption="...">
                   <div class="caption">
@@ -129,7 +131,7 @@
                 </div>
 
                 <div>
-                  <img src="images/color flipper.png" alt="color flipper app" class="responsive-img materialboxed gallary-item" width="1000" data-caption="...">
+                  <img src="images/colorflipper-ipad.png" alt="color flipper app" class="responsive-img materialboxed gallary-item" width="1000" data-caption="...">
                   <p>Random Color Flipper app</p>
                   <a href="https://j-frilot.github.io/Random-Color-Picker/" target="blank">See Live</a> <a href="https://github.com/j-frilot/Random-Color-Picker" target="blank">See Code</a>
                 </div>
@@ -145,6 +147,12 @@
                   <p>Landing Page</p>
                   <a href="https://j-frilot.github.io/Intergreen/" target="blank">See Live</a> <a href="https://github.com/j-frilot/Intergreen" target="blank">See Code</a>
                 </div>
+
+                <div>
+                    <img src="images/restuarant-desktop.png" alt="restuarant landing page" class="responsive-img materialboxed gallary-item" width="1000" data-caption="">
+                    <p>Landing Page</p>
+                    <a href="https://codepen.io/TheMelloMan/pen/PozPNjq" target="blank">See Live</a> <a href="https://codepen.io/TheMelloMan/pen/PozPNjq" target="blank">See Code</a>
+                  </div>
                 
                 
               </div>
@@ -155,21 +163,7 @@
 
             <!-- contact page -->
             <section id="contact" class="container">
-                <div class="row" id="contact-1">
-
-                    <div class="col l8">
-                        
-                    </div>
-
-                    <div class="col l3 offset-l1">
-                             
-                    </div>
-                </div>
-                                        
-            </section>
-            
-                <section class="container">
-                    <div class="row">
+                    <div id="contact-me" class="row">
                         <div class="col s12 l8">
                           <div class="card-panel">
                             <form class="form center-align" action="https://formspree.io/mwkwkobn" method="POST">

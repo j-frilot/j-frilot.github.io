@@ -1,8 +1,28 @@
+.nav-wrapper {
+  padding: 3rem 0;
+}
+
+.nav-links {
+  font-size: 1.5rem;
+}
+
+.code-icon {
+  font-size: 4rem;
+}
+
 .fa-bars,
 .fa-github,
 .fa-file-word,
 .fa-linkedin-in,
 .fa-at,
+.nav-menu {
+  /* background-color: var(--sec-bg-color); */
+  color: var(--main-txt-color);
+  font-size: 2.5rem;
+  margin: 1rem;
+  /* border: var(--border); */
+}
+
 .nav-menu {
   /* background-color: var(--sec-bg-color); */
   color: var(--main-txt-color);
