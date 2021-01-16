@@ -138,7 +138,8 @@ textarea {
   border: var(--border);
 }
 
-button {
+button,
+.submit-btn {
   background-color: var(--sec-bg-color);
   color: var(--lead-txt-color);
   margin: 0 2rem 2rem 2rem;
