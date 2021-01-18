@@ -109,8 +109,9 @@
                     <div id="contact-me" class="row">
                         <div class="col s12 l8">
                           <div class="card-panel">
-                            <form class="form center-align" action="https://formspree.io/mwkwkobn" method="POST">
+                            <form class="form center-align" action="https://formspree.io/f/mwkwkobn" method="POST">
                                 <h4>Send Me Feedback</h4>
+
                                 <div class="form-group">
                                     <label for="first-name">
                                         <input type="text" name="firstName" id="first-name" placeholder="First Name" required/>
@@ -125,17 +126,17 @@
             
                                 <div class="form-group">
                                     <label for="email">
-                                        <input type="email" name="email" id="email" placeholder="Email Address" required />
+                                        <input type="email" name="_replyto" id="email" placeholder="Email Address" required />
                                     </label><br>
                                 </div>
             
                                 <div class="form-group">
                                     <label for="message">
-                                        <textarea id="message name="message" placeholder="Leave A Message!" required></textarea>
+                                        <textarea type="text" id="message" name="message" placeholder="Leave A Message!" required></textarea>
                                     </label>
                                 </div>
                             
-                                <input type="submit" value="Send" class="submit-btn"></input>
+                                <button type="submit" value="Send" class="submit-btn">Send</button>
                             </form>
                           </div>
                         </div>
