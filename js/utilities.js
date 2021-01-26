@@ -15,38 +15,45 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ///////////  WORK DATABASE /////////
 
+
 let projects = [{
-  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300/v1609448795/portfolio/work-sixteen_g1kdfd.jpg",
+  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609448795/portfolio/work-sixteen_g1kdfd.jpg",
   title: "Paws Pet Shop",
   link: "https://pawspetshop.netlify.app/",
   code: "https://github.com/j-frilot/Paws-Pet-Shop",
 },
 {
-  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300/v1609291170/portfolio/work-restaurant.jpg",
+  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609291170/portfolio/work-restaurant.jpg",
   title: "Restaurant Landing Page",
   link: "https://restuarant.netlify.app/",
   code: "https://codepen.io/TheMelloMan/pen/PozPNjq",
 },
 {
-  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300/v1609289011/portfolio/work-pinterest.jpg",
-  title: "Pinterest Clone",
-  link: "https://j-frilot.github.io/Pinterest-Clone/",
-  code: "https://github.com/j-frilot/Pinterest-Clone",
+img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609289011/portfolio/work-pinterest.jpg",
+title: "Pinterest Clone",
+link: "https://j-frilot.github.io/Pinterest-Clone/",
+code: "https://github.com/j-frilot/Pinterest-Clone",
 },
 {
-  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300/v1609287683/portfolio/work-rockpaperscissors.jpg",
+  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1611618803/math-game/thumbnail-phone.jpg",
+  title: "Math Learning App",
+  link: "https://schoolescape.netlify.app/",
+  code: "https://github.com/j-frilot/math-game",
+},
+{
+  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609287683/portfolio/work-rockpaperscissors.jpg",
   title: "Rock, Paper, Scissors",
   link: "https://j-frilot.github.io/Rock-Paper-Scissor",
   code: "https://github.com/j-frilot/Rock-Paper-Scissor",
 }, 
 {
-  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300/v1609288913/portfolio/work-random-quote.jpg",
+  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609288913/portfolio/work-random-quote.jpg",
   title: "Random Quote Maker",
   link: "https://j-frilot.github.io/Random-Quote-Generator-/",
   code: "https://github.com/j-frilot/Random-Quote-Generator-",
 }, 
 {
-  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300/v1609288802/portfolio/work-groupme.jpg",
+  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609288802/portfolio/work-groupme.jpg",
   title: "GroupMe Mobile App",
   link: "https://j-frilot.github.io/GroupMe/",
   code: "https://github.com/j-frilot/GroupMe",
