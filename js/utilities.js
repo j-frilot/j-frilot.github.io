@@ -23,15 +23,9 @@ let projects = [{
   code: "https://github.com/j-frilot/Paws-Pet-Shop",
 },
 {
-  img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609291170/portfolio/work-restaurant.jpg",
-  title: "Restaurant Landing Page",
-  link: "https://restuarant.netlify.app/",
-  code: "https://codepen.io/TheMelloMan/pen/PozPNjq",
-},
-{
 img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609289011/portfolio/work-pinterest.jpg",
 title: "Pinterest Clone",
-link: "https://j-frilot.github.io/Pinterest-Clone/",
+link: "https://not-pinterest.netlify.app/",
 code: "https://github.com/j-frilot/Pinterest-Clone",
 },
 {
@@ -39,6 +33,12 @@ code: "https://github.com/j-frilot/Pinterest-Clone",
   title: "Math Learning App",
   link: "https://schoolescape.netlify.app/",
   code: "https://github.com/j-frilot/math-game",
+},
+{
+    img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609291170/portfolio/work-restaurant.jpg",
+    title: "Restaurant Landing Page",
+    link: "https://restuarant.netlify.app/",
+    code: "https://codepen.io/TheMelloMan/pen/PozPNjq",
 },
 {
   img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609287683/portfolio/work-rockpaperscissors.jpg",
