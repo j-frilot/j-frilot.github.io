@@ -16,9 +16,16 @@ document.addEventListener("DOMContentLoaded", function () {
 let projects = [
     {
         img:
-            "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1609448795/portfolio/work-sixteen_g1kdfd.jpg",
+            "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1619810176/portfolio/work-hospital-desktop.jpg",
+        title: "COVID Hospital",
+        link: "https://general-hospital.netlify.app/",
+        code: "https://github.com/j-frilot/General-Hospital"
+    },
+    {
+        img:
+            "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1619809904/portfolio/work-paws.jpg",
         title: "Paws Pet Shop",
-        link: "https://pawspetshop.netlify.app/",
+        link: "https://paws-adoption.netlify.app/",
         code: "https://github.com/j-frilot/Paws-Pet-Shop"
     },
     {
@@ -27,13 +34,6 @@ let projects = [
         title: "Math Learning App",
         link: "https://schoolescape.netlify.app/",
         code: "https://github.com/j-frilot/math-game"
-    },
-    {
-        img:
-            "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto,w_411/v1614832437/portfolio/breezed-screenshot_ffenn8.png",
-        title: "Breezed Portfolio",
-        link: "https://kays-designs.netlify.app/",
-        code: "https://github.com/j-frilot/Kay-Designs"
     },
 
     {
