@@ -1,17 +1,7 @@
-// /////////  TOOL TIP  ///////////
-
 document.addEventListener("DOMContentLoaded", function () {
     var tool = document.querySelectorAll(".tooltipped");
     var instances = M.Tooltip.init(tool, {});
 });
-
-///////////// WORK GALLARY BLOW UPS///////////////////
-document.addEventListener("DOMContentLoaded", function () {
-    var image = document.querySelectorAll(".materialboxed");
-    var instances = M.Materialbox.init(image, {});
-});
-
-///////////  WORK DATABASE /////////
 
 let projects = [
     {
@@ -71,7 +61,7 @@ window.addEventListener("DOMContentLoaded", function () {
     let workSection = document.querySelector("#my-work");
     let displayWork = projects.map(function (project) {
         return `<div>
-              <img src=${project.img} class="responsive-img materialboxed gallary-item" width="1000">
+              <img src=${project.img} class="responsive-img materialboxed gallary-item" width="1000" alt="work-thumbnail">
               <p>${project.title}</p>
               <a href="${project.link}" target="blank">See Live</a> <a href="${project.code}" target="blank">See Code</a>
             </div>`;
