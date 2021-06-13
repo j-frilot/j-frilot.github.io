@@ -12,7 +12,7 @@ let projects = [
     {
         img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1619810176/portfolio/work-hospital-desktop.jpg",
         title: "COVID General Hospital",
-        link: "https://generalhospital.netlify.app/",
+        link: "https://hospital-jf.netlify.app/",
         code: "https://github.com/j-frilot/General-Hospital"
     },
     {
