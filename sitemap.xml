@@ -11,11 +11,13 @@
   <loc>https://joshuafrilot.com/</loc>
   <lastmod>2021-06-14T21:29:07+00:00</lastmod>
   <priority>1.00</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://joshuafrilot.com/assets/JOSHUA_FRILOT_RESUME.pdf</loc>
   <lastmod>2021-06-14T21:29:07+00:00</lastmod>
-  <priority>weekly</priority>
+  <priority>0.80</priority>
+  <changefreq>weekly</change
 </url>
 
 
