@@ -7,7 +7,7 @@ let projects = [
     {
         img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1623107920/portfolio/work-calebras.jpg",
         title: "Calebra's Heart CPR Training LLC",
-        link: "https://calebrasheart.netlify.app/"
+        link: "https://cpr-jf.netlify.app/"
     },
     {
         img: "https://res.cloudinary.com/dsip2gx3i/image/upload/c_scale,h_300,q_auto/v1619810176/portfolio/work-hospital-desktop.jpg",
